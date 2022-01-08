@@ -15,8 +15,8 @@ namespace Rotas
         public MainPage()
         {
             InitializeComponent();
-            this.BindingContext  = new MainPageViewModel(Navigation); 
-            
+            this.BindingContext  = new MainPageViewModel(Navigation);
+            Animate();
         }
 
         private async void Animate()
@@ -29,7 +29,7 @@ namespace Rotas
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            Animate();
+           
         }
 
         #region Top Tab Animation

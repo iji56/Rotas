@@ -1,23 +1,26 @@
-﻿<Properties StartupConfiguration="{5C083B62-F75E-4CBC-B8AD-81B9F340DB98}|Default">
-  <MonoDevelop.Ide.ItemProperties.Rotas.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.152A03FC-4ADE-46D3-AAA6-8A656156D678" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Rotas/App.xaml">
+﻿<Properties StartupConfiguration="{ADC575E8-5558-451F-9173-38A213373A55}|Default">
+  <MonoDevelop.Ide.ItemProperties.Rotas.iOS PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Rotas/Views/UserRotas.xaml.cs">
     <Files>
-      <File FileName="Rotas/Views/UserRotas.xaml" Line="56" Column="76" />
-      <File FileName="Rotas/App.xaml.cs" Line="18" Column="21" />
-      <File FileName="Rotas/App.xaml" Line="42" Column="53" />
-      <File FileName="Rotas.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Rotas/Views/UserRotas.xaml" Line="137" Column="75" />
+      <File FileName="Rotas/App.xaml.cs" />
+      <File FileName="Rotas/App.xaml" />
+      <File FileName="Rotas.iOS/Main.cs" />
+      <File FileName="Rotas/Views/UserRotas_EditProfile.xaml.cs" Line="16" Column="1" />
+      <File FileName="Rotas/Views/UserRotas.xaml.cs" Line="32" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Rotas" expanded="True">
             <Node name="Rotas" expanded="True">
-              <Node name="Assets" expanded="True" />
-              <Node name="Global" expanded="True" />
-              <Node name="Views" expanded="True" />
-              <Node name="App.xaml" expanded="True" selected="True" />
+              <Node name="Views" expanded="True">
+                <Node name="UserRotas.xaml" expanded="True">
+                  <Node name="UserRotas.xaml.cs" selected="True" />
+                </Node>
+                <Node name="UserRotas_EditProfile.xaml" expanded="True" />
+              </Node>
             </Node>
-            <Node name="Rotas.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
