@@ -1,0 +1,46 @@
+{
+  "MemberTypes": [
+    {
+      "Name": "Admin",
+      "Id": "2E1DABC1-147B-446F-A88E-9F3AF341D436"
+    },
+    {
+      "Name": "Member",
+      "Id": "B660267A-4824-41DB-8924-FBFBA8564007"
+    }
+  ],
+ 
+  "RotaStates": [
+    {
+      "Name": "Pending",
+      "Id": "6ee56802-a87b-4f56-8de2-05a10e7c064b"
+    },
+    {
+      "Name": "Active",
+      "Id": "c9228af2-9549-456f-9e64-b59afe829d0e"
+    },
+    {
+      "Name": "Closed",
+      "Id": "1dce6d99-d2f2-48e7-b203-f8c9cfcc8828"
+    }
+  ],
+  
+    "Currencies": [
+        {
+            "Name": "British Pound",
+            "Code": "GBP",
+            "Symbol": "£",
+            "Enabled": true,
+            "Id": "8522dd3a-4f09-31dc-8690-2810080c1465"
+        },
+        {
+            "Name": "Euro",
+            "Code": "EUR",
+            "Symbol": "€",
+            "Enabled": true,
+            "Id": "2b5655a0-59db-8bad-a9cc-680367308118"
+        }
+    ],
+    "Successful": true,
+    "ErrorMessage": ""
+}

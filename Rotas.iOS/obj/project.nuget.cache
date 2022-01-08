@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "zTQ4rJ7v9gyerXY3/Oi2XtJ+u7nIL0b0hXAiUGG4d3mBECuGax/AA8R2/jhLCgyNH4j6FJRgex0b6drpRMMmpw==",
+  "success": true,
+  "projectFilePath": "/Users/vorksol/Projects/Rotas/Rotas.iOS/Rotas.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/vorksol/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/vorksol/.nuget/packages/sharpnado.shadows/1.2.0/sharpnado.shadows.1.2.0.nupkg.sha512",
+    "/Users/vorksol/.nuget/packages/sharpnado.tabs/2.2.0/sharpnado.tabs.2.2.0.nupkg.sha512",
+    "/Users/vorksol/.nuget/packages/sharpnado.taskmonitor/1.0.2/sharpnado.taskmonitor.1.0.2.nupkg.sha512",
+    "/Users/vorksol/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/vorksol/.nuget/packages/thomaslevesque.weakevent/4.1.0/thomaslevesque.weakevent.4.1.0.nupkg.sha512",
+    "/Users/vorksol/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/vorksol/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

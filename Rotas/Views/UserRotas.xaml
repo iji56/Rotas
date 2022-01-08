@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:tabs="clr-namespace:Sharpnado.Tabs;assembly=Sharpnado.Tabs"
+                xmlns:customCollectionView="clr-namespace:Rotas.CustomControls"
+              xmlns:global="clr-namespace:Rotas.Global"
+             xmlns:customDot="clr-namespace:Rotas.CustomControls"
+             xmlns:converter="clr-namespace:Rotas.Converters"
+              xmlns:sh="http://sharpnado.com"
+            NavigationPage.HasNavigationBar="False"
+             x:Name="RotasPage"
+             x:Class="Rotas.MainPage">
+       <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:CurrencyConverter x:Key="CurrencyConverter"></converter:CurrencyConverter>
+              <converter:IconConverter x:Key="IconConverter"></converter:IconConverter>
+             <converter:StatusConverter x:Key="StatusConverter"></converter:StatusConverter>
+             <converter:ColorConverter x:Key="ColorConverter"></converter:ColorConverter>
+              
+
+                    <DataTemplate x:Key="allTemplate">
+                <!--All Content-->
+                <customCollectionView:CustomCollectionView x:Name="lstViewAll"  ItemsSource="{Binding ListMembers}" Margin="0,20,0,0"   SelectionMode="None" VerticalScrollBarVisibility="Never"  >
+                    <customCollectionView:CustomCollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <!--<custom:CustomViewCell>-->
+
+                           <Grid  CompressedLayout.IsHeadless="True" RowSpacing="0"  >
+                                <Frame VerticalOptions="Fill" CornerRadius="0" HorizontalOptions="FillAndExpand" BackgroundColor="{Binding BackgroundColor}"  Margin="-10,0,0,0" x:Name="PostItem"  HasShadow="False">
+                                    <Grid VerticalOptions="Fill" HorizontalOptions="FillAndExpand"  Margin="15,0,0,0" RowSpacing="0"  ColumnSpacing="0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                             <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="*"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Grid Grid.Row="0"  >
+                                            <StackLayout Orientation="Horizontal">
+                 <Image Source="{Binding .,Converter={StaticResource IconConverter}}"  HorizontalOptions="Start"  VerticalOptions="Center"  WidthRequest="10" HeightRequest="10" ></Image>
+                 <Label   HorizontalOptions="Start" Style="{StaticResource Status}"  VerticalOptions="Center" Margin="8,0,0,0" Text="{Binding .,Converter={StaticResource StatusConverter}}"  TextColor="{Binding .,Converter={StaticResource ColorConverter}}"></Label>
+                                            </StackLayout>
+                                        </Grid>
+                                        
+                <Label Grid.Row="1" Grid.Column="0"  HorizontalOptions="StartAndExpand" VerticalOptions="Center" Style="{StaticResource Title}"  Text="{Binding Rota.Name}"  />
+                <ImageButton Command="{Binding BindingContext.OverlayCommand, Source={x:Reference RotasPage}}"  Source="arrow" WidthRequest="6" HeightRequest="12"  HorizontalOptions="EndAndExpand" VerticalOptions="Center"  Grid.Row="1" Grid.Column="1">
+                </ImageButton>
+                                           
+                 <Grid Grid.Row="2" Margin="0,8,0,0" >
+                        <StackLayout Orientation="Horizontal">
+                <Image      Source="star"  HorizontalOptions="Start" VerticalOptions="Center"></Image>
+                <Label  HorizontalOptions="Start" VerticalOptions="Center"   Text="Sean Gannon" Style="{StaticResource Sean}"/>
+                <Label  HorizontalOptions="Start" VerticalOptions="Center" Style="{StaticResource Currency}"  Text="{Binding .,Converter={StaticResource CurrencyConverter}}" Margin="20,0,0,0" />
+                   </StackLayout>
+                 </Grid>
+                 </Grid>
+                 </Frame>
+                            </Grid>
+                           
+                        </DataTemplate>
+                    </customCollectionView:CustomCollectionView.ItemTemplate>
+                  
+                </customCollectionView:CustomCollectionView>
+            </DataTemplate>
+
+
+                  <DataTemplate x:Key="pendingTemplate">
+                <!--Pending Content-->
+                <customCollectionView:CustomCollectionView x:Name="lstViewPending"  ItemsSource="{Binding ListPendingMembers}" Margin="0,20,0,0"   SelectionMode="None" VerticalScrollBarVisibility="Never"  >
+                    <customCollectionView:CustomCollectionView.ItemTemplate>
+                        <DataTemplate>
+                          
+
+                           <Grid  CompressedLayout.IsHeadless="True"  >
+                                <Frame VerticalOptions="Fill" CornerRadius="0" HorizontalOptions="FillAndExpand" BackgroundColor="#E5E5E5"  Margin="-10,0,0,0" x:Name="PostItem"  HasShadow="False">
+                                    <Grid VerticalOptions="Fill" HorizontalOptions="FillAndExpand"  Margin="15,0,0,0" RowSpacing="0"  ColumnSpacing="0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                             <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+
+                                 
+                                        <Grid Grid.Row="0"  >
+                                            <StackLayout Orientation="Horizontal">
+                 <Image Source="{Binding .,Converter={StaticResource IconConverter}}"  HorizontalOptions="Start"  VerticalOptions="Center"  WidthRequest="10" HeightRequest="10" ></Image>
+                 <Label   HorizontalOptions="Start" Style="{StaticResource Status}"  VerticalOptions="Center" Margin="8,0,0,0" Text="{Binding .,Converter={StaticResource StatusConverter}}" TextColor="{Binding .,Converter={StaticResource ColorConverter}}"></Label>
+                        </StackLayout>
+                               </Grid>
+                                        
+
+                    
+              <Label Grid.Row="1" Grid.Column="0"  HorizontalOptions="StartAndExpand" VerticalOptions="Center"  Style="{StaticResource Title}"  Text="{Binding Rota.Name}" />
+
+              <ImageButton  Command="{Binding BindingContext.OverlayCommand, Source={x:Reference RotasPage}}"  Source="arrow" WidthRequest="6" HeightRequest="12" HorizontalOptions="EndAndExpand" VerticalOptions="Center"  Grid.Row="1" Grid.Column="1">
+                   
+              </ImageButton>
+                     <Grid Grid.Row="2" Margin="0,8,0,0" >
+                            <StackLayout Orientation="Horizontal">
+                <Image      Source="star"  HorizontalOptions="Start" VerticalOptions="Center"></Image>
+<Label  HorizontalOptions="Start" VerticalOptions="Center"   Text="Sean Gannon" Style="{StaticResource Sean}"/>
+<Label  HorizontalOptions="Start" VerticalOptions="Center" Style="{StaticResource Currency}"  Text="{Binding .,Converter={StaticResource CurrencyConverter}}" Margin="20,0,0,0" />
+                   </StackLayout>
+                         </Grid>
+ </Grid>
+                                </Frame>
+                            </Grid>
+                            <!--</custom:CustomViewCell>-->
+                        </DataTemplate>
+                    </customCollectionView:CustomCollectionView.ItemTemplate>
+                  
+                </customCollectionView:CustomCollectionView>
+            </DataTemplate>
+
+
+            
+                  <DataTemplate x:Key="activeTemplate">
+                <!--Active Content-->
+                <customCollectionView:CustomCollectionView x:Name="lstViewActive"  ItemsSource="{Binding ListActiveMembers}" Margin="0,20,0,0"   SelectionMode="None" VerticalScrollBarVisibility="Never"  >
+                    <customCollectionView:CustomCollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <!--<custom:CustomViewCell>-->
+
+                           <Grid  CompressedLayout.IsHeadless="True"  >
+                                <Frame VerticalOptions="Fill" CornerRadius="0" HorizontalOptions="FillAndExpand"  BackgroundColor="{Binding BackgroundColor}"  Margin="-10,0,0,0" x:Name="PostItem"  HasShadow="False">
+                                    <Grid VerticalOptions="Fill" HorizontalOptions="FillAndExpand"  Margin="15,0,0,0" RowSpacing="0"  ColumnSpacing="0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                             <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+
+                                    
+                                        <Grid Grid.Row="0"  >
+                                            <StackLayout Orientation="Horizontal">
+                 <Image Source="{Binding .,Converter={StaticResource IconConverter}}"  HorizontalOptions="Start"  VerticalOptions="Center"  WidthRequest="10" HeightRequest="10" ></Image>
+                 <Label   HorizontalOptions="Start" Style="{StaticResource Status}" VerticalOptions="Center" Margin="8,0,0,0" Text="{Binding .,Converter={StaticResource StatusConverter}}" TextColor="{Binding .,Converter={StaticResource ColorConverter}}"></Label>
+</StackLayout>
+                                       </Grid>
+                                        
+ <Label Grid.Row="1" Grid.Column="0"  HorizontalOptions="StartAndExpand" VerticalOptions="Center"  Style="{StaticResource Title}" Text="{Binding Rota.Name}" />
+<ImageButton Command="{Binding BindingContext.OverlayCommand, Source={x:Reference RotasPage}}"  Source="arrow" WidthRequest="6" HeightRequest="12" HorizontalOptions="EndAndExpand" VerticalOptions="Center"  Grid.Row="1" Grid.Column="1">
+              </ImageButton>
+                     <Grid Grid.Row="2" Margin="0,8,0,0" >
+                                            <StackLayout Orientation="Horizontal">
+                <Image      Source="star"  HorizontalOptions="Start" VerticalOptions="Center"></Image>
+<Label  HorizontalOptions="Start" VerticalOptions="Center"   Text="Sean Gannon"  Style="{StaticResource Sean}"/>
+<Label  HorizontalOptions="Start" VerticalOptions="Center"   Text="{Binding .,Converter={StaticResource CurrencyConverter}}" Margin="20,0,0,0" Style="{StaticResource Currency}"/>
+                   </StackLayout>
+                                       </Grid>
+</Grid>
+                                </Frame>
+                            </Grid>
+                            <!--</custom:CustomViewCell>-->
+                        </DataTemplate>
+                    </customCollectionView:CustomCollectionView.ItemTemplate>
+                  
+                </customCollectionView:CustomCollectionView>
+            </DataTemplate>
+            <global:HomePageListSelector x:Key="homePageListSelector"
+                AllTemplate="{StaticResource allTemplate}"
+                PendingTemplate="{StaticResource pendingTemplate}"
+                ActiveTemplate="{StaticResource activeTemplate}"
+                 />
+        </ResourceDictionary>
+           </ContentPage.Resources>
+
+<StackLayout Margin="0,30,0,0">
+                          <Grid RowSpacing="0" CompressedLayout.IsHeadless="True">
+                    <Grid.RowDefinitions>
+                       <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                       
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                              <Grid Grid.Row="0">
+                                  <ImageButton HorizontalOptions="EndAndExpand" Source="user" Command="{Binding UserEditTappedCommand}" Margin="0,0,5,0" WidthRequest="32" HeightRequest="32"></ImageButton>
+                              </Grid>
+                          
+                    <Grid Grid.Row="1" Margin="0,15,0,0" ColumnSpacing="0"  VerticalOptions="Start"  CompressedLayout.IsHeadless="True">
+                        <StackLayout x:Name="btnAlllayout" Grid.Column="0"   HeightRequest="25" ClassId="0">
+                            <Label x:Name="btnPosts" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" VerticalOptions="Start"  Text="All" TextColor="#F92987" FontSize="{OnIdiom Phone='15', Tablet='20'}" FontAttributes="Bold" Margin="0,0,0,0"/>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ContentType_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+
+                        <StackLayout x:Name="btnPendinglayout" Grid.Column="1" HeightRequest="25" ClassId="1">
+                            <Label x:Name="btnContests" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" VerticalOptions="Start"  Text="Pending" TextColor="#000000" FontSize="{OnIdiom Phone='15', Tablet='20'}" FontAttributes="Bold" Margin="0,0,0,0"/>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ContentType_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+
+                         <StackLayout x:Name="btnActiveLayout" Grid.Column="2"   HeightRequest="25" ClassId="2">
+                            <Label x:Name="btnactive" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" VerticalOptions="Start"  Text="Active" TextColor="#000000" FontSize="{OnIdiom Phone='15', Tablet='20'}" FontAttributes="Bold" Margin="0,0,0,0"/>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ContentType_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                         <StackLayout x:Name="BarContainer"  VerticalOptions="EndAndExpand" Margin="{OnIdiom Phone='0', Tablet='0,30,0,0'}" CompressedLayout.IsHeadless="True">
+                            <Frame x:Name="SelectionBar" HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="{OnIdiom Phone='2', Tablet='4'}" WidthRequest="29" CornerRadius="{OnPlatform Android='20', iOS='2'}" BackgroundColor="#fff" HasShadow="False" Padding="0"/>
+                        </StackLayout>
+                     
+                    </Grid>
+
+      <CarouselView x:Name="carousel" Grid.Row="2" Loop="False" Margin="0,10,0,65" ItemsSource="{Binding HomePageList}" CurrentItemChanged="CarouselView_CurrentItemChanged" HorizontalScrollBarVisibility="Never" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  ItemTemplate="{StaticResource homePageListSelector}"/>
+
+                            <sh:Shadows CornerRadius="0"
+            Shades="{sh:SingleShade Offset='0, -50',
+                                    Opacity=0.7,
+                                    Color=White}" Grid.Row="2" Margin="0,0,0,15" VerticalOptions="EndAndExpand">
+                                 <Grid  
+     ColumnDefinitions="50*, 50*"
+     ColumnSpacing="8" 
+     HorizontalOptions="FillAndExpand">
+        <Button Text="Join Rota" TextColor="#232396" Grid.Column="0" Margin="8,0,0,0" BorderColor="#232396" BorderWidth="2" HorizontalOptions="FillAndExpand"/>
+        <Button BackgroundColor="#232396"  Text="Create Rota" TextColor="White" Grid.Column="1" Margin="0,0,8,0" HorizontalOptions="FillAndExpand "/>
+         
+     </Grid></sh:Shadows>       
+                              </Grid>
+                              
+    </StackLayout>
+
+</ContentPage>

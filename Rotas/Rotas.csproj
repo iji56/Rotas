@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Sharpnado.Tabs" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Sharpnado.Shadows" Version="1.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Sharpnado.Tabs" />
+    <None Remove="CustomControls\" />
+    <None Remove="Global\" />
+    <None Remove="Models\" />
+    <None Remove="ViewModels\" />
+    <None Remove="MockData\" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="ReferenceData.json" />
+    <None Remove="UserRotas_MockData.json" />
+    <None Remove="Helper\" />
+    <None Remove="Sharpnado.Shadows" />
+    <None Remove="Converters\" />
+    <None Remove="Views\" />
+    <None Remove="Assets\" />
+    <None Remove="Assets\Poppins-Regular.ttf" />
+    <None Remove="Assets\Poppins-Bold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CustomControls\" />
+    <Folder Include="Global\" />
+    <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="MockData\" />
+    <Folder Include="Helper\" />
+    <Folder Include="Converters\" />
+    <Folder Include="Views\" />
+    <Folder Include="Assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ReferenceData.json" />
+    <EmbeddedResource Include="UserRotas_MockData.json" />
+    <EmbeddedResource Include="Assets\Poppins-Regular.ttf" />
+    <EmbeddedResource Include="Assets\Poppins-Bold.ttf" />
+  </ItemGroup>
+</Project>

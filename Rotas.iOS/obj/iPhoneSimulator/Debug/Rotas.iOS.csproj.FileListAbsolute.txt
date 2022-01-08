@@ -1,0 +1,80 @@
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Rotas.iOS.exe
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Rotas.iOS.pdb
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Sharpnado.Shadows.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Sharpnado.Shadows.pdb
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Sharpnado.Shadows.iOS.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Sharpnado.Shadows.iOS.pdb
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Sharpnado.Tabs.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Sharpnado.Tabs.pdb
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Sharpnado.Tabs.iOS.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Sharpnado.Tabs.iOS.pdb
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Sharpnado.TaskMonitor.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/WeakEvent.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/WeakEvent.pdb
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Rotas.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Rotas.pdb
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/Rotas.iOS.csproj.AssemblyReference.cache
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/Rotas.iOS.csproj.CoreCompileInputs.cache
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/Rotas.iOS.csproj.CopyComplete
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/Rotas.iOS.exe
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/Rotas.iOS.pdb
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/actool/_PartialAppManifest.items
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/actool/_BundleResourceWithLogicalName.items
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/actool/_ProcessedImageAssetsPath.items
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/coremlc/_PartialAppManifest.items
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/_ProcessedBundleResourcesPath.items
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/_ProcessedContentPath.items
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/optimized/
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/optimized/dotGreen.png
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/optimized/arrow.png
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/optimized/star.png
+/Users/vorksol/Projects/Rotas/Rotas.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/optimized/user.png
+/Users/vorksol/Projects/Rotas/Rotas.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/optimized/dotYellow.png

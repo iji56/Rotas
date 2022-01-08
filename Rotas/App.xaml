@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rotas.App">
+    <Application.Resources>
+       
+          <Style TargetType="Label" x:Key="Status">
+             <Setter Property="FontSize">
+                     <Setter.Value>
+                  <OnIdiom x:TypeArguments="x:Double" Phone="18"/>
+                </Setter.Value>
+             </Setter>
+              <Setter Property="FontFamily" Value="Assets.Proppins-Bold"></Setter>
+              <Setter Property="FontAttributes" Value="None"></Setter>
+             
+      </Style>
+
+        <Style TargetType="Label" x:Key="Title">
+             <Setter Property="FontSize">
+                     <Setter.Value>
+                  <OnIdiom x:TypeArguments="x:Double" Phone="24"/>
+                </Setter.Value>
+             </Setter>
+              <Setter Property="FontFamily" Value="Assets.Proppins-Bold"></Setter>
+              <Setter Property="FontAttributes" Value="Bold"></Setter>
+            <Setter Property="TextColor" Value="#505050"></Setter>
+             
+      </Style>
+
+         <Style TargetType="Label" x:Key="Sean">
+             <Setter Property="FontSize">
+                     <Setter.Value>
+                  <OnIdiom x:TypeArguments="x:Double" Phone="18"/>
+                </Setter.Value>
+             </Setter>
+              <Setter Property="FontFamily" Value="Assets.Proppins-Regular"></Setter>
+              <Setter Property="FontAttributes" Value="None"></Setter>
+            <Setter Property="TextColor" Value="#232396"></Setter>
+             
+      </Style>
+
+           <Style TargetType="Label" x:Key="Currency">
+             <Setter Property="FontSize">
+                     <Setter.Value>
+                  <OnIdiom x:TypeArguments="x:Double" Phone="18"/>
+                </Setter.Value>
+             </Setter>
+              <Setter Property="FontFamily" Value="Assets.Proppins-Regular"></Setter>
+              <Setter Property="FontAttributes" Value="None"></Setter>
+            <Setter Property="TextColor" Value="#505050"></Setter>
+             
+      </Style>
+       
+    </Application.Resources>
+</Application>

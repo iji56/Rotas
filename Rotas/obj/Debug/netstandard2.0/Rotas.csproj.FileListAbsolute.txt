@@ -1,0 +1,17 @@
+/Users/vorksol/Projects/Rotas/Rotas/bin/Debug/netstandard2.0/Rotas.deps.json
+/Users/vorksol/Projects/Rotas/Rotas/bin/Debug/netstandard2.0/Rotas.dll
+/Users/vorksol/Projects/Rotas/Rotas/bin/Debug/netstandard2.0/ref/Rotas.dll
+/Users/vorksol/Projects/Rotas/Rotas/bin/Debug/netstandard2.0/Rotas.pdb
+/Users/vorksol/Projects/Rotas/Rotas/obj/Debug/netstandard2.0/Rotas.csproj.AssemblyReference.cache
+/Users/vorksol/Projects/Rotas/Rotas/obj/Debug/netstandard2.0/Rotas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vorksol/Projects/Rotas/Rotas/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/vorksol/Projects/Rotas/Rotas/obj/Debug/netstandard2.0/Rotas.AssemblyInfoInputs.cache
+/Users/vorksol/Projects/Rotas/Rotas/obj/Debug/netstandard2.0/Rotas.AssemblyInfo.cs
+/Users/vorksol/Projects/Rotas/Rotas/obj/Debug/netstandard2.0/Rotas.csproj.CoreCompileInputs.cache
+/Users/vorksol/Projects/Rotas/Rotas/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/vorksol/Projects/Rotas/Rotas/obj/Debug/netstandard2.0/Rotas.dll
+/Users/vorksol/Projects/Rotas/Rotas/obj/Debug/netstandard2.0/ref/Rotas.dll
+/Users/vorksol/Projects/Rotas/Rotas/obj/Debug/netstandard2.0/Rotas.pdb
+/Users/vorksol/Projects/Rotas/Rotas/obj/Debug/netstandard2.0/Views/UserRotas.xaml.g.cs
+/Users/vorksol/Projects/Rotas/Rotas/obj/Debug/netstandard2.0/Views/UserRotas_EditProfile.xaml.g.cs
+/Users/vorksol/Projects/Rotas/Rotas/obj/Debug/netstandard2.0/Views/OverLayLayout.xaml.g.cs

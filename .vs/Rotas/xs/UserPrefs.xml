@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{5C083B62-F75E-4CBC-B8AD-81B9F340DB98}|Default">
+  <MonoDevelop.Ide.ItemProperties.Rotas.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.152A03FC-4ADE-46D3-AAA6-8A656156D678" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Rotas/App.xaml">
+    <Files>
+      <File FileName="Rotas/Views/UserRotas.xaml" Line="56" Column="76" />
+      <File FileName="Rotas/App.xaml.cs" Line="18" Column="21" />
+      <File FileName="Rotas/App.xaml" Line="42" Column="53" />
+      <File FileName="Rotas.iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Rotas" expanded="True">
+            <Node name="Rotas" expanded="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="Global" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="App.xaml" expanded="True" selected="True" />
+            </Node>
+            <Node name="Rotas.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Rotas.Android FirstBuild="True" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
