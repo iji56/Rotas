@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace Rotas.Views
 {
-    public partial class OverLayLayout : ContentPage
+    public partial class Rota : ContentPage
     {
-        public OverLayLayout()
+        public Rota()
         {
             InitializeComponent();
         }

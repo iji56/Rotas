@@ -1,57 +1,57 @@
 {
-    "UserId": "e324a6f7-0228-4766-b14f-5dbeb3f8226f",
-    "RotasMember": [
-        {
-            "Rota": {
-                "Name": "test212@test212.com Rota",
-                "UserCreatorId": "e324a6f7-0228-4766-b14f-5dbeb3f8226f",
-                "RotaStateId": "6ee56802-a87b-4f56-8de2-05a10e7c064b",
-                "MonthlyFullShareAmount": 50.00,
-                "CurrencyId": "8522dd3a-4f09-31dc-8690-2810080c1465",
-                "Id": "630029e7-bba9-4bbc-910b-d0f5c755bbd3"
-            },
-            "Member": {
-                "Id": "878dc6af-33c1-44ea-8d3e-a23be6cab60e",
-                "MemberType": {
-                    "Name": "Admin",
-                    "Id": "2e1dabc1-147b-446f-a88e-9f3af341d436"
-                },
-                "UserId": "e324a6f7-0228-4766-b14f-5dbeb3f8226f",
-                "MonthlyPayInAmount": 150.00
-            }
-        }
-    ],
-    "RotasPendingMemeber": [
-        {
-            "Rota": {
-                "Name": "test400@test400.com Rota",
-                "UserCreatorId": "edac18f5-4244-4608-ac49-b984678a88ce",
-                "RotaStateId": "6ee56802-a87b-4f56-8de2-05a10e7c064b",
-                "MonthlyFullShareAmount": 50.00,
-                "CurrencyId": "8522dd3a-4f09-31dc-8690-2810080c1465",
-                "Id": "0bca45b9-bf95-4636-ab08-1589e81dd268"
-            },
-            "Member": {
-                "Id": "7665df2e-000d-4ebf-8113-eeba427030b0",
-                "MemberType": null,
-                "UserId": "e324a6f7-0228-4766-b14f-5dbeb3f8226f",
-                "MonthlyPayInAmount": 200.00
-            }
-        }
-    ],
-    "RotasGhostAdmin": [
-        {
-            "Rota": {
-                "Name": "test212@test212.com Rota",
-                "UserCreatorId": "e324a6f7-0228-4766-b14f-5dbeb3f8226f",
-                "RotaStateId": "6ee56802-a87b-4f56-8de2-05a10e7c064b",
-                "MonthlyFullShareAmount": 50.00,
-                "CurrencyId": "8522dd3a-4f09-31dc-8690-2810080c1465",
-                "Id": "d8d36b82-ed85-4b04-9f0f-5017473fbcae"
-            },
-            "Member": null
+  "UserId": "e324a6f7-0228-4766-b14f-5dbeb3f8226f",
+  "RotasMember": [
+    {
+      "Rota": {
+        "Name": "Active rota - User Member",
+        "UserCreatorId": "0FFE3D20-12AB-4F50-B0CC-88D0263FEC70",
+        "RotaStateId": "c9228af2-9549-456f-9e64-b59afe829d0e",
+        "MonthlyFullShareAmount": 50.00,
+        "CurrencyId": "8522dd3a-4f09-31dc-8690-2810080c1465",
+        "Id": "630029e7-bba9-4bbc-910b-d0f5c755bbd3"
+      },
+      "Member": {
+        "Id": "878dc6af-33c1-44ea-8d3e-a23be6cab60e",
+        "MemberType": {
+          "Name": "Member",
+          "Id": "B660267A-4824-41DB-8924-FBFBA8564007"
         },
-    ],
-    "Successful": true,
-    "ErrorMessage": ""
+        "UserId": "e324a6f7-0228-4766-b14f-5dbeb3f8226f",
+        "MonthlyPayInAmount": 150.00
+      }
+    }
+  ],
+  "RotasPendingMemeber": [
+    {
+      "Rota": {
+        "Name": "Pending Rota- User Pending",
+        "UserCreatorId": "edac18f5-4244-4608-ac49-b984678a88ce",
+        "RotaStateId": "6ee56802-a87b-4f56-8de2-05a10e7c064b",
+        "MonthlyFullShareAmount": 50.00,
+        "CurrencyId": "2b5655a0-59db-8bad-a9cc-680367308118",
+        "Id": "0bca45b9-bf95-4636-ab08-1589e81dd268"
+      },
+      "Member": {
+        "Id": "7665df2e-000d-4ebf-8113-eeba427030b0",
+        "MemberType": null,
+        "UserId": "e324a6f7-0228-4766-b14f-5dbeb3f8226f",
+        "MonthlyPayInAmount": 200.00
+      }
+    }
+  ],
+  "RotasGhostAdmin": [
+    {
+      "Rota": {
+        "Name": "Rota Active - User Ghost Admin",
+        "UserCreatorId": "e324a6f7-0228-4766-b14f-5dbeb3f8226f",
+        "RotaStateId": "c9228af2-9549-456f-9e64-b59afe829d0e",
+        "MonthlyFullShareAmount": 50.00,
+        "CurrencyId": "8522dd3a-4f09-31dc-8690-2810080c1465",
+        "Id": "d8d36b82-ed85-4b04-9f0f-5017473fbcae"
+      },
+      "Member": null
+    },
+  ],
+  "Successful": true,
+  "ErrorMessage": ""
 }
